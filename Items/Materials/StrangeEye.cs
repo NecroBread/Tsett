@@ -14,7 +14,7 @@ namespace Tsett.Items.Materials
 
         public override void SetDefaults() 
         {
-            item.width = 32;
+            item.width = 33;
             item.height = 32;
             item.value = Item.sellPrice(gold: 5);
             item.rare = ItemRarityID.Green;
