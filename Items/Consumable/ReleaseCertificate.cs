@@ -20,7 +20,7 @@ namespace Tsett.Items.Consumable
             item.consumable = true;
             item.maxStack = 1;
             item.rare = 11;
-            item.value = Item.sellPrice(platinum: 1);
+            item.value = Item.sellPrice(0);
         }
 
         public override bool CanRightClick()
