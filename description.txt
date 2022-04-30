@@ -1,5 +1,0 @@
-Tsett is a content oriented mod
-There is not much content right now, but I will gradually add more and more
-
-0.0.3 - Resprites of Spectralsun
-0.0.3.1 - fixed value of Release Certificate
