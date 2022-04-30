@@ -1,0 +1,10 @@
+Tsett is a content oriented mod
+There is not much content right now, but I will gradually add more and more
+
+0.0.4 "Working in Progress I"
+Reworked Spectralsun Broadsword and Obsidian Sword
+Reworked recipe of a Spectralsun Bar
+Resprited buff icon "Radished"
+Deleted ULTIMATE MELEE WEAPON
+
+0.0.5 will be probably in June
