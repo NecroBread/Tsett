@@ -17,15 +17,26 @@ namespace Tsett.Items.Accessoires
             item.width = 32;
             item.height = 32;
             item.accessory = true;
-            item.rare = 7;
+            item.rare = 5;
             item.value = Item.sellPrice(gold: 4);
         }
 
         public override void UpdateAccessory(Player player, bool hideVisual)
         {
-            player.rangedDamage += .95f;
+            player.rangedDamage += .45f;
             player.rangedCrit += 15;
+        }
 
+        public override void AddRecipes()
+        {
+            ModRecipe recipe = new ModRecipe(mod);
+            recipe.AddIngredient(ItemID.Silk, 10);
+            recipe.AddIngredient(ItemID.SoulofSight, 3);
+            recipe.AddIngredient(ItemID.BlackString);
+            recipe.AddIngredient(ItemID.BlackDye);
+            recipe.AddTile(134);
+            recipe.SetResult(this);
+            recipe.AddRecipe();
         }
     }
 }

@@ -7,6 +7,6 @@ Reworked recipe of a Spectralsun Bar
 Resprited buff icon "Radished"
 Deleted ULTIMATE MELEE WEAPON
 
-0.0.4.2 - Increased size of the Obsidian Sword 
+0.0.4.2 - Increased size of the Obsidian Sword
 
-0.0.5 will be probably in June
+0.0.4.3 - Decreased use time of the Obsidian Sword
