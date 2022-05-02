@@ -19,8 +19,8 @@ namespace Tsett.Items.Weapons
             item.height = 50;
             item.melee = true;
             item.damage = 145;
-            item.useTime = 9;
-            item.useAnimation = 9;
+            item.useTime = 14;
+            item.useAnimation = 14;
             item.useStyle = 1;
             item.knockBack = 8;
             item.value = Item.sellPrice(gold: 10);
@@ -28,7 +28,7 @@ namespace Tsett.Items.Weapons
             item.UseSound = SoundID.Item1;
             item.autoReuse = true;
             item.shoot = ModContent.ProjectileType<Projectiles.SpectralsunBWrocket>();
-            item.shootSpeed = 6;
+            item.shootSpeed = 4;
         }
 
         public override void OnHitNPC(Player player, NPC target, int damage, float knockBack, bool crit)

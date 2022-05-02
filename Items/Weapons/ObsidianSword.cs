@@ -19,8 +19,8 @@ namespace Tsett.Items.Weapons
 			item.melee = true;
 			item.width = 76;
 			item.height = 80;
-			item.useTime = 20;
-			item.useAnimation = 20;
+			item.useTime = 24;
+			item.useAnimation = 24;
 			item.useStyle = 1;
 			item.knockBack = 4;
 			item.value = Item.sellPrice(silver: 30);
