@@ -9,7 +9,7 @@ namespace Tsett.Items.Consumable
         public override void SetStaticDefaults()
         {
             DisplayName.SetDefault("Release Certificate");
-            Tooltip.SetDefault("Congratulations everyone on the release!\nAll mod items can be obtained after killing the Moon Lord\n'Now I want to tell you\nYou could have been waiting for this release for several months\nObviously I've been silent for too long\nUnbelieveable, but I restored my motivation to create this mod\nWith that motivation, I'm going to continue.\nAnd on that moment\nI want to say\nThank you xoxo NekiBread\nRight Click to extract items(works only if you beat Moon Lord)");
+            Tooltip.SetDefault("Congratulations everyone on the release!\nRight Click to extract items(works only if you beat Moon Lord)");
         }
         
         public override void SetDefaults()
@@ -47,9 +47,7 @@ namespace Tsett.Items.Consumable
             player.QuickSpawnItem(ModContent.ItemType<Items.Tools.SpectralsunPickaxe>());
             player.QuickSpawnItem(ModContent.ItemType<Items.Weapons.ObsidianSword>());
             player.QuickSpawnItem(ModContent.ItemType<Items.Weapons.SpectralsunBroadsword>());
-            player.QuickSpawnItem(ModContent.ItemType<Items.Weapons.SpectralsunRifle>());
             player.QuickSpawnItem(ModContent.ItemType<Items.Weapons.SpectralsunShortsword>());
-            player.QuickSpawnItem(ModContent.ItemType<Items.Weapons.Ammo.SpectralsunBullet>(), 9999);
             player.QuickSpawnItem(ModContent.ItemType<Items.Materials.PieceOfHilt>(), 4);
             player.QuickSpawnItem(ModContent.ItemType<Items.Materials.RepairedHilt>(), 2);
         }
