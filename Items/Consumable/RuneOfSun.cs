@@ -9,7 +9,7 @@ namespace Tsett.Items.Consumable
         public override void SetStaticDefaults()
         {
             DisplayName.SetDefault("Rune of Sowilu");
-            Tooltip.SetDefault("'Sun'\nPlayer shining, +4HP&Mana Regeneration, +40HP&Mana");
+            Tooltip.SetDefault("'Sun'");
         }
 
         public override void SetDefaults()
