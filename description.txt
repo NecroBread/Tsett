@@ -16,3 +16,5 @@ Deleted ULTIMATE MELEE WEAPON
 0.0.4.5 - Deleted Spectralsun Rifle
 
 0.0.4.6 - Decreased use time of the Obsidian Sword (again x2) and the Spectralsun Sword
+
+0.0.4.7 - Deleted Release Cerificate
