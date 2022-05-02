@@ -17,7 +17,6 @@ namespace Tsett.Items.Materials
             item.width = 32;
             item.height = 32;
             item.material = true;
-            item.consumable = true;
             item.maxStack = 1;
             item.value = Item.sellPrice(silver: 67);
             item.rare = 4;

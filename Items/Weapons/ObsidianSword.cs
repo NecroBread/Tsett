@@ -15,24 +15,18 @@ namespace Tsett.Items.Weapons
 
 		public override void SetDefaults()
 		{ 
-			item.damage = 56;
+			item.damage = 58;
 			item.melee = true;
 			item.width = 76;
 			item.height = 80;
-			item.useTime = 14;
-			item.useAnimation = 14;
+			item.useTime = 20;
+			item.useAnimation = 20;
 			item.useStyle = 1;
 			item.knockBack = 4;
 			item.value = Item.sellPrice(silver: 30);
 			item.rare = 2;
 			item.UseSound = SoundID.Item1;
 			item.autoReuse = true;
-		}
-
-		public override void OnHitNPC(Player player, NPC target, int damage, float knockBack, bool crit)
-		{
-			target.AddBuff(BuffID.Bleeding, 600);
-			target.AddBuff(BuffID.BrokenArmor, 450);
 		}
 
 		public override void AddRecipes()

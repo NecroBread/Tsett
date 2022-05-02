@@ -19,7 +19,6 @@ namespace Tsett.Items.Materials
             item.rare = 3;
             item.value = Item.sellPrice(silver: 1);
             item.material = true;
-            item.consumable = true;
             item.maxStack = 99;
         }
     }
