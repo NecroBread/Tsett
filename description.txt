@@ -1,20 +1,15 @@
 Tsett is a content oriented mod
 There is not much content right now, but I will gradually add more and more
+Our team:
+NekiBread - lead developer, programmer, artist (sort of)
+Engining O'Dvizhok - artist (periodically)
+bithara1 - programmer
+snusenjoyer - programmer
 
-0.0.4.1 "Working in Progress I"
-Reworked Spectralsun Broadsword (resprite by Engining o'Dvizhok) and Obsidian Sword
-Reworked recipe of a Spectralsun Bar
-Resprited buff icon "Radished"
-Deleted ULTIMATE MELEE WEAPON
-
-0.0.4.2 - Increased size of the Obsidian Sword
-
-0.0.4.3 - Decreased use time of the Obsidian Sword
-
-0.0.4.4 - Decreased use time of the Obsidian Sword (again), fixed tooltips of some items
-
-0.0.4.5 - Deleted Spectralsun Rifle
-
-0.0.4.6 - Decreased use time of the Obsidian Sword (again x2) and the Spectralsun Sword
-
-0.0.4.7 - Deleted Release Cerificate
+0.0.5 - Some Stuff I Update
+- Added: 
+	Comically Large Spoon
+	bread
+	Clear Sheet
+- Reworked:
+	Release Certificate -> Formulas sheet

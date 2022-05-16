@@ -9,14 +9,14 @@ namespace Tsett
 	{
 		public override void AddRecipeGroups()
 		{
-			RecipeGroup goldplatbroad = new RecipeGroup(() => Language.GetTextValue("LegacyMisc.37") + "Gold Broadsword", new int[]
+			RecipeGroup goldplatbroad = new RecipeGroup(() => Language.GetTextValue("LegacyMisc.37") + " Gold Broadsword", new int[]
 			{
 		ItemID.GoldBroadsword,
 		ItemID.PlatinumBroadsword
 			});
 			RecipeGroup.RegisterGroup("Tsett:Gold Broadsword", goldplatbroad);
 
-			RecipeGroup demonicrimt = new RecipeGroup(() => Language.GetTextValue("LegacyMisc.37") + "Evil Bar", new int[]
+			RecipeGroup demonicrimt = new RecipeGroup(() => Language.GetTextValue("LegacyMisc.37") + " Evil Bar", new int[]
 			{
 		ItemID.DemoniteBar,
 		ItemID.CrimtaneBar
@@ -52,7 +52,10 @@ namespace Tsett
 					Item.NewItem(npc.getRect(), ModContent.ItemType<Items.Materials.StrangeEye>());
 				}
 
-
+				if (npc.type == NPCID.Plantera && Main.rand.NextFloat() < .18f)
+				{
+					Item.NewItem(npc.getRect(), ModContent.ItemType<Items.bread>());
+				}
 			}
 
 			public override void SetupShop(int type, Chest shop, ref int nextSlot)
@@ -84,7 +87,21 @@ namespace Tsett
 					shop.item[nextSlot].shopCustomPrice = 450000;
 					nextSlot++;
                 }
-            }
+
+				if (type == NPCID.Demolitionist && Main.hardMode)
+				{
+					shop.item[nextSlot].SetDefaults(ModContent.ItemType<Items.Weapons.ComicallyLargeSpoon>());
+					shop.item[nextSlot].shopCustomPrice = 20000;
+					nextSlot++;
+				}
+
+				if (type == NPCID.Merchant && NPC.downedBoss1)
+				{
+					shop.item[nextSlot].SetDefaults(ModContent.ItemType<Items.Materials.ClearSheet>());
+					shop.item[nextSlot].shopCustomPrice = 15;
+					nextSlot++;
+				}
+			}
 		}
 	}
 }
