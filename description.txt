@@ -16,3 +16,6 @@ snusenjoyer - programmer
 
 0.0.5.1: 
 - Added description of Formulas Sheet
+
+0.0.5.2:
+- Returned recipes for the Spectralsun Tools

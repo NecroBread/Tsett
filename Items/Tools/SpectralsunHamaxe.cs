@@ -33,13 +33,13 @@ namespace Tsett.Items.Tools
             item.tileBoost += 3;
         }
         
-        /*public override void AddRecipes()
+        public override void AddRecipes()
         {
             ModRecipe recipe = new ModRecipe(mod);
             recipe.AddIngredient(ModContent.ItemType<Materials.Placeable.SpectralsunBar>(), 18);
             recipe.AddTile(412);
             recipe.SetResult(this);
             recipe.AddRecipe();
-        }*/
+        }
     }
 }
