@@ -12,4 +12,7 @@ snusenjoyer - programmer
 	bread
 	Clear Sheet
 - Reworked:
-	Release Certificate -> Formulas sheet
+	Release Certificate -> Formulas Sheet
+
+0.0.5.1: 
+- Added description of Formulas Sheet

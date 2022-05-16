@@ -9,7 +9,7 @@ namespace Tsett.Items.Accessories
         public override void SetStaticDefaults()
         {
             DisplayName.SetDefault("Formulas sheet");
-            Tooltip.SetDefault("The sheet is scribbled with the basic formulas of trigonometry");
+            Tooltip.SetDefault("The sheet is scribbled with the basic formulas of trigonometry \n+16% magic damage\n+48 Mana\n+4 Defense");
         }
         
         public override void SetDefaults()
