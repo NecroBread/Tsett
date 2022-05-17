@@ -10,7 +10,7 @@ namespace Tsett.Items.Weapons
         public override void SetStaticDefaults()
         {
             DisplayName.SetDefault("Spectralsun Broadsword");
-            Tooltip.SetDefault("Forged by the Spectral Sun God's personal smith, \nthis blade is capable of burning its wielder's enemies to ashes.");
+            Tooltip.SetDefault("Forged from the recipe of a great blacksmith, \nthis blade is capable of burning its wielder's enemies to ashes.");
         }
 
         public override void SetDefaults()
@@ -41,7 +41,7 @@ namespace Tsett.Items.Weapons
         {
             ModRecipe recipe = new ModRecipe(mod);
             recipe.AddIngredient(ModContent.ItemType<Materials.RepairedHilt>());
-            recipe.AddIngredient(ModContent.ItemType<Materials.Placeable.SpectralsunBar>(), 18);
+            recipe.AddIngredient(ModContent.ItemType<Materials.Placeable.SpectralsunBar>(), 9);
             recipe.AddTile(412);
             recipe.SetResult(this);
             recipe.AddRecipe();

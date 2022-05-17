@@ -17,9 +17,9 @@ namespace Tsett.Items.Weapons
             item.width = 96;
             item.height = 96;
             item.melee = true;
-            item.damage = 67;
-            item.useTime = 26;
-            item.useAnimation = 26;
+            item.damage = 72;
+            item.useTime = 22;
+            item.useAnimation = 22;
             item.useStyle = 1;
             item.knockBack = 9;
             item.rare = 4;

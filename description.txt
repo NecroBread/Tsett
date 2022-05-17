@@ -19,3 +19,13 @@ snusenjoyer - programmer
 
 0.0.5.2:
 - Returned recipes for the Spectralsun Tools
+
+0.0.5.3:
+- Increased use time of the Obsidian Sword
+- Increased damage and use time of the Comically Large Spoon
+- Decreased amount of Spectralsun Bars needed in the Spectralsun Broadsword recipe
+- Changed description of the Spectralsun Broadsword
+- Fixed description of the Formulas Sheet
+- Changed name of the Formulas Sheet: now it is List of Basic Trigonometry
+
+Very sorry for those who'd made the Formulas Sheet and using it.

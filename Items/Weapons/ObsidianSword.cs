@@ -19,11 +19,11 @@ namespace Tsett.Items.Weapons
 			item.melee = true;
 			item.width = 76;
 			item.height = 80;
-			item.useTime = 24;
-			item.useAnimation = 24;
+			item.useTime = 21;
+			item.useAnimation = 21;
 			item.useStyle = 1;
 			item.knockBack = 4;
-			item.value = Item.sellPrice(silver: 30);
+			item.value = Item.sellPrice(silver: 40);
 			item.rare = 2;
 			item.UseSound = SoundID.Item1;
 			item.autoReuse = true;
