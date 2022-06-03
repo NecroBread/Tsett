@@ -11,8 +11,6 @@ Our staff:
 
 >bithara1 - programmer, designer;
 
->snusenjoyer - programmer;
-
 This is a content-orientented mod, although there's still small amount of items.
 
 If you have a questions, please message me in [Twitter](https://twitter.com/NekiBread) or Discord (NekiBread#9289), I'll answer you ASAP.
