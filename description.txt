@@ -4,7 +4,6 @@ Our team:
 NekiBread - lead developer, programmer, artist (sort of)
 Engining O'Dvizhok - artist (periodically)
 bithara1 - programmer
-snusenjoyer - programmer
 
 0.0.5 - Some Stuff I Update
 - Added: 
