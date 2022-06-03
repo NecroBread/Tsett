@@ -52,10 +52,15 @@ namespace Tsett
 					Item.NewItem(npc.getRect(), ModContent.ItemType<Items.Materials.StrangeEye>());
 				}
 
-				if (npc.type == NPCID.Plantera && Main.rand.NextFloat() < .18f)
+				if (npc.type == NPCID.Plantera)
 				{
 					Item.NewItem(npc.getRect(), ModContent.ItemType<Items.bread>());
 				}
+
+				if(npc.type == NPCID.MoonLordCore)
+                {
+					Item.NewItem(npc.getRect(), ModContent.ItemType<Items.BurntList>());
+                }
 			}
 
 			public override void SetupShop(int type, Chest shop, ref int nextSlot)

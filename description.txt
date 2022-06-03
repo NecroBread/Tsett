@@ -28,4 +28,7 @@ snusenjoyer - programmer
 - Fixed description of the Formulas Sheet
 - Changed name of the Formulas Sheet: now it is List of Basic Trigonometry
 
-Very sorry for those who'd made the Formulas Sheet and using it.
+0.0.5.4 - Down to the Ashes:
+- Drop chance of bread increased to 100%
+- Changed description of bread
+- Added Burnt Page

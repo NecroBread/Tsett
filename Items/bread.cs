@@ -9,7 +9,7 @@ namespace Tsett.Items
         public override void SetStaticDefaults()
         {
             DisplayName.SetDefault("bread");
-            Tooltip.SetDefault("Does... nothing. \nWhile you holding it, you feeling like you someone special");
+            Tooltip.SetDefault("Doing something... \nPerhaps we should combine it with the Phoenix ash? \n \nWhile you holding it, you feeling like you someone special");
         }
 
         public override void SetDefaults()
