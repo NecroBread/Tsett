@@ -32,7 +32,6 @@ namespace Tsett.Items.Accessories
         {
             ModRecipe recipe = new ModRecipe(mod);
             recipe.AddIngredient(ItemID.Silk, 10);
-            recipe.AddIngredient(ItemID.SoulofSight, 3);
             recipe.AddIngredient(ItemID.BlackString);
             recipe.AddIngredient(ItemID.BlackDye);
             recipe.AddTile(134);
