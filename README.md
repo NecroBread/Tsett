@@ -7,9 +7,9 @@ Greetings, everyone who reading this. We are Team Tearoom, and we're making a mo
 Our staff:
 >NekiBread - lead developer, programmer, artist (sort of) and designer;
 
->Engining O'Dvizhok - artist (periodically);
+>Anasu - artist (periodically);
 
->bithara1 - programmer, designer;
+>bithara1 - artist, designer;
 
 >snusenjoyer2008 - designer, shitoposter
 
