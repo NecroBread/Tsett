@@ -1,3 +1,0 @@
-displayName = Tsett
-author = Team Tearoom
-version = 0.0.5.4
